@@ -2,7 +2,7 @@
 
 const ParentApp = () => {
   const handleApp = () => {
-    window.location.replace("https://joyful-macaron-6478b6.netlify.app")
+    window.location.replace("https://master--joyful-macaron-6478b6.netlify.app/")
   };
   return (
     <div>
