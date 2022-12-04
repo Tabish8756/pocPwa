@@ -3,12 +3,12 @@ import { useNavigate } from "react-router-dom";
 const ParentApp = () => {
   const navigate = useNavigate();
   const handleApp = () => {
-    navigate("/Health");
+    window.location.replace("https://elegant-kangaroo-0ab27b.netlify.app")
   };
   return (
     <div>
       <h1>Pwa Health</h1>
-      <button onClick={handleApp}>Create Health Id</button>
+      <button onClick={handleApp}>Call back</button>
     </div>
   );
 };
